@@ -18,11 +18,11 @@
   --label-inset-inline-end: clamp(0.688rem, 1.315vw + 0.379rem, 1.563rem);
   --text-stroke-color: #fff;
   --dialog-inline-size: clamp(21.313rem, 1.502vw + 20.96rem, 22.313rem);
-  --dialog-button-inline-padding: clamp(7.125rem, 1.69vw + 6.729rem, 8.25rem);
   --bg-image: repeating-linear-gradient(to right, #d3d3d3 0px, #d3d3d3 2px, #d3d3d300 2px, #d3d3d300 4px),
   repeating-linear-gradient(to bottom, #d3d3d3 0px, #d3d3d3 2px, #d3d3d300 2px, #d3d3d300 4px),
   linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
   --light-color: #fff;
   --contour-color: #000;
   --heart-color: #FF0000;
+  --logo-size: clamp(21.438rem, 10.516vw + 18.973rem, 28.438rem);
 }

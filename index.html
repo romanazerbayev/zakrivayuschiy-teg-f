@@ -14,24 +14,27 @@
     <link rel="apple-touch-icon" href="./images/favicon.png" />
   </head>
   <body class="page">
-    <header class="header inline-size">
-      <h1 class="main-title">&lt;/HTML&gt;</h1>
-      <span class="main-subtitle">закрывающий тег</span>
+    <header class="header">
+      <a class="header__link" href="#">&lt;/html&gt;</a>
+      <h1 class="header__title">закрывающий тег</h1>
     </header>
-    <main class="content inline-size">
-      <section class="content__section">
+    <main class="content">
+      <article class="content__article">
         <h2 class="content__title">
           Фритрек и нулевой спринт: Подготовка к работе
         </h2>
-        <div class="content__poster">
+        <figure class="content__poster">
           <img
             src="./images/img1.webp"
             alt="Роман сидит перед мотоциклом в горах"
-            class="content__image bike"
+            class="content__image filter-sepia"
+            loading="lazy"
           />
-          <span class="content__image-label">Каждый</span>
-        </div>
-        <article class="content__article">
+          <figcaption class="content__image-label" aria-hidden="true">
+            Каждый
+          </figcaption>
+        </figure>
+        <div class="content__block">
           <p class="content__text">
             Это было самое начало пути. На этом этапе важно было проникнуться
             основами и настроиться на учёбу. И, возможно, подумать, как новые
@@ -42,9 +45,9 @@
             и будоражило одновременно. Воображение рисовало разные картины
             будущего, как катастрофичные, так и праздничные.
           </p>
-        </article>
-        <div class="content__buttons">
-          <button class="card__icon-button">
+        </div>
+        <footer class="content__buttons">
+          <button class="card__icon-button" type="button">
             <svg
               width="39"
               height="36"
@@ -76,22 +79,25 @@
               />
             </svg>
           </button>
-          <button class="card__like-button button">
+          <button class="card__like-button button" type="button">
             <span class="button__text">Like</span>
           </button>
-        </div>
-      </section>
-      <section class="content__section">
+        </footer>
+      </article>
+      <article class="content__article">
         <h2 class="content__title">1 спринт: Я — чистый лист</h2>
-        <div class="content__poster">
+        <figure class="content__poster">
           <img
             src="./images/img2.webp"
             alt="Роман в костюме"
-            class="content__image suit"
+            class="content__image filter-grayscale"
+            loading="lazy"
           />
-          <span class="content__image-label">путь</span>
-        </div>
-        <article class="content__article">
+          <figcaption class="content__image-label" aria-hidden="true">
+            путь
+          </figcaption>
+        </figure>
+        <div class="content__block">
           <p class="content__text">
             На первых этапах мы работали со страхами и сомнениями, которые часто
             испытывают новички. Один из них — страх перед чистым листом. Это,
@@ -104,9 +110,9 @@
             стоишь за плечом у старшего коллеги и смотришь, как он делает свою
             работу.
           </p>
-        </article>
-        <div class="content__buttons">
-          <button class="card__icon-button">
+        </div>
+        <footer class="content__buttons">
+          <button class="card__icon-button" type="button">
             <svg
               width="39"
               height="36"
@@ -138,23 +144,25 @@
               />
             </svg>
           </button>
-          <button class="card__like-button button">
+          <button class="card__like-button button" type="button">
             <span class="button__text">Like</span>
           </button>
-        </div>
-      </section>
-      <section class="content__section">
+        </footer>
+      </article>
+      <article class="content__article">
         <h2 class="content__title">1 спринт: А если не получится?</h2>
-        <div class="content__poster">
+        <figure class="content__poster">
           <img
             src="./images/img3.webp"
             alt="Фотография сирени"
-            class="content__image flowers"
+            class="content__image filter-saturate"
             loading="lazy"
           />
-          <span class="content__image-label">в тысячу</span>
-        </div>
-        <article class="content__article">
+          <figcaption class="content__image-label" aria-hidden="true">
+            в тысячу
+          </figcaption>
+        </figure>
+        <div class="content__block">
           <p class="content__text">
             Первый проект — позади! Но это всё ещё самое начало пути. Радость
             могла быстро померкнуть и смениться ожиданием провала. Или вы,
@@ -166,9 +174,9 @@
             практике и снова ничего не понимаешь и приходится скрипеть
             извилинами, чтобы объединить знания. И так по кругу.
           </p>
-        </article>
-        <div class="content__buttons">
-          <button class="card__icon-button">
+        </div>
+        <footer class="content__buttons">
+          <button class="card__icon-button" type="button">
             <svg
               width="39"
               height="36"
@@ -200,23 +208,25 @@
               />
             </svg>
           </button>
-          <button class="card__like-button button">
+          <button class="card__like-button button" type="button">
             <span class="button__text">Like</span>
           </button>
-        </div>
-      </section>
-      <section class="content__section">
+        </footer>
+      </article>
+      <article class="content__article">
         <h2 class="content__title">2 спринт: Погоня за идеалом</h2>
-        <div class="content__poster">
+        <figure class="content__poster">
           <img
             src="./images/img4.webp"
             alt="Роман в дождевике сидит на стуле на природе"
-            class="content__image chair"
+            class="content__image filter-blur-hue-rotate"
             loading="lazy"
           />
-          <span class="content__image-label">миль</span>
-        </div>
-        <article class="content__article">
+          <figcaption class="content__image-label" aria-hidden="true">
+            миль
+          </figcaption>
+        </figure>
+        <div class="content__block">
           <p class="content__text">
             На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы
             понять, как много ещё впереди. Вы могли попытаться погнаться за
@@ -228,9 +238,9 @@
             Пытаешься сделать лучше одно, по пути ломается второе, а третье
             вообще сходит с ума.
           </p>
-        </article>
-        <div class="content__buttons">
-          <button class="card__icon-button">
+        </div>
+        <footer class="content__buttons">
+          <button class="card__icon-button" type="button">
             <svg
               width="39"
               height="36"
@@ -262,23 +272,25 @@
               />
             </svg>
           </button>
-          <button class="card__like-button button">
+          <button class="card__like-button button" type="button">
             <span class="button__text">Like</span>
           </button>
-        </div>
-      </section>
-      <section class="content__section">
+        </footer>
+      </article>
+      <article class="content__article">
         <h2 class="content__title">2 спринт: О тех, кто рядом</h2>
-        <div class="content__poster">
+        <figure class="content__poster">
           <img
             src="./images/img5.webp"
             alt="Котик спит на гамаке"
-            class="content__image cat"
+            class="content__image filter-opacity"
             loading="lazy"
           />
-          <span class="content__image-label">начинается</span>
-        </div>
-        <article class="content__article">
+          <figcaption class="content__image-label" aria-hidden="true">
+            начинается
+          </figcaption>
+        </figure>
+        <div class="content__block">
           <p class="content__text">
             Всё это время вы были не одиноки (хотя, возможно, иногда и
             чувствовали, что одни против целого мира). Вас окружали
@@ -293,9 +305,9 @@
             тебя. Читаешь, анализируешь и вот, ты уже не один такой, кто
             столкнулся с трудностями и на душе легче становится.
           </p>
-        </article>
-        <div class="content__buttons">
-          <button class="card__icon-button">
+        </div>
+        <footer class="content__buttons">
+          <button class="card__icon-button" type="button">
             <svg
               width="39"
               height="36"
@@ -327,23 +339,25 @@
               />
             </svg>
           </button>
-          <button class="card__like-button button">
+          <button class="card__like-button button" type="button">
             <span class="button__text">Like</span>
           </button>
-        </div>
-      </section>
-      <section class="content__section">
+        </footer>
+      </article>
+      <article class="content__article">
         <h2 class="content__title">3 спринт: Обходные стратегии</h2>
-        <div class="content__poster">
+        <figure class="content__poster">
           <img
             src="./images/img6.webp"
             alt="Роман сидит в баре"
-            class="content__image pub"
+            class="content__image filter-invert"
             loading="lazy"
           />
-          <span class="content__image-label">с первого</span>
-        </div>
-        <article class="content__article">
+          <figcaption class="content__image-label" aria-hidden="true">
+            с первого
+          </figcaption>
+        </figure>
+        <div class="content__block">
           <p class="content__text">
             На этом курсе вы постоянно решали разные задачи. В какой-то момент
             вам могло показаться, что решения просто иссякли. Значит, пришло
@@ -354,9 +368,9 @@
             совершенно о другом. И, сам не замечая как, решение приходило в
             свежую голову.
           </p>
-        </article>
-        <div class="content__buttons">
-          <button class="card__icon-button">
+        </div>
+        <footer class="content__buttons">
+          <button class="card__icon-button" type="button">
             <svg
               width="39"
               height="36"
@@ -388,23 +402,25 @@
               />
             </svg>
           </button>
-          <button class="card__like-button button">
+          <button class="card__like-button button" type="button">
             <span class="button__text">Like</span>
           </button>
-        </div>
-      </section>
-      <section class="content__section">
+        </footer>
+      </article>
+      <article class="content__article">
         <h2 class="content__title">3 спринт: Когда опускаются руки</h2>
-        <div class="content__poster">
+        <figure class="content__poster">
           <img
             src="./images/img7.webp"
             alt="Роман лежит в снегу на ступеньках"
-            class="content__image gosling"
+            class="content__image filter-brightness"
             loading="lazy"
           />
-          <span class="content__image-label">шага</span>
-        </div>
-        <article class="content__article">
+          <figcaption class="content__image-label" aria-hidden="true">
+            шага
+          </figcaption>
+        </figure>
+        <div class="content__block">
           <p class="content__text">
             Во время учёбы часто возникает чувство, когда не знаешь, за что
             хвататься. Вроде и проектную пора сдавать, и задачи хочется
@@ -417,9 +433,9 @@
             подробно разъяснили, как бороться со стрессом и упорядочить учебный
             (и не только) процесс.
           </p>
-        </article>
-        <div class="content__buttons">
-          <button class="card__icon-button">
+        </div>
+        <footer class="content__buttons">
+          <button class="card__icon-button" type="button">
             <svg
               width="39"
               height="36"
@@ -451,23 +467,25 @@
               />
             </svg>
           </button>
-          <button class="card__like-button button">
+          <button class="card__like-button button" type="button">
             <span class="button__text">Like</span>
           </button>
-        </div>
-      </section>
-      <section class="content__section">
+        </footer>
+      </article>
+      <article class="content__article">
         <h2 class="content__title">«Сейчас я здесь»</h2>
-        <div class="content__poster">
+        <figure class="content__poster">
           <img
             src="./images/img8.webp"
             alt="Роман и Хатсуне Мику"
-            class="content__image miku"
+            class="content__image filter-contrast"
             loading="lazy"
           />
-          <span class="content__image-label">© Лао-Цзы</span>
-        </div>
-        <article class="content__article">
+          <figcaption class="content__image-label" aria-hidden="true">
+            © Лао-Цзы
+          </figcaption>
+        </figure>
+        <div class="content__block">
           <p class="content__text">
             Сейчас вы уже очень много знаете о вёрстке. Но это только начало.
             Во-первых, впереди ещё много материала про «красотищу». Во-вторых, с
@@ -481,8 +499,8 @@
             в собирание паззла — такое же увлекательное и занимательное. И, как
             говорится — "The Journey is the destination".
           </p>
-        </article>
-        <div class="content__buttons">
+        </div>
+        <footer class="content__buttons">
           <button class="card__icon-button">
             <svg
               width="39"
@@ -518,8 +536,8 @@
           <button class="card__like-button button">
             <span class="button__text">Like</span>
           </button>
-        </div>
-      </section>
+        </footer>
+      </article>
       <button
         class="save-button button"
         type="button"
@@ -536,16 +554,16 @@
           <svg class="dialog__icon floppy-icon" viewBox="0 0 40 40">
             <use href="./svg/floppy.svg#save" />
           </svg>
-          <span class="dialog__text"
-            >Вставьте<br />дискету, чтобы<br />продолжить</span
-          >
+          <p class="dialog__text">
+            Вставьте<br />дискету, чтобы<br />продолжить
+          </p>
         </div>
         <button
-          class="dialog__button"
+          class="dialog__button button"
           type="button"
           onclick="window['dialog-insert'].close()"
         >
-          ок
+          <span class="button__text">ок</span>
         </button>
       </dialog>
     </main>
