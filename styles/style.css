@@ -29,7 +29,7 @@
   margin-inline: auto;
   margin-block-end: 100px;
   border: 2px solid var(--main-color, #000);
-  padding: var(--header-padding) 0;
+  padding: var(--header-block-padding) var(--header-inline-padding);
   font-family: var(--accent-font, "PressStart2P"), fantasy;
   text-transform: uppercase;
   background-color: var(--light-color, #fff);

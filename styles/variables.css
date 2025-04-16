@@ -9,7 +9,8 @@
   --page-block-end-padding: 105px;
   --header-fs: clamp(3.063rem, 1.502vw + 2.71rem, 4.063rem);
   --header-subtitle-fs: clamp(0.875rem, 0.845vw + 0.677rem, 1.438rem);
-  --header-padding: clamp(7.5rem, 0.751vw + 7.324rem, 8rem);
+  --header-block-padding: clamp(7.5rem, 0.751vw + 7.324rem, 8rem);
+  --header-inline-padding: clamp(0.875rem, 9.953vw - 1.458rem, 7.5rem);
   --text-lh: 21px;
   --button-lh: 90%;
   --dialog-lh: 150%;
