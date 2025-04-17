@@ -134,7 +134,6 @@
 }
 
 .card__like-button {
-  border: 2px solid var(--main-color, #000);
   background: transparent;
   min-inline-size: 130px;
   min-block-size: 38px;
@@ -145,18 +144,20 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-  border: 2px solid var(--main-color, #000);
   background-color: var(--text-stroke-color);
   min-inline-size: 335px;
   min-block-size: 51px;
 }
 
-.floppy-icon {
+.save-button__icon {
+  inline-size: 21px;
   mix-blend-mode: difference;
 }
 
-.save-button__icon {
-  inline-size: 21px;
+@media (width <= 375px) {
+  .save-button__icon {
+    inline-size: 28px;
+  }
 }
 
 .button__text {
@@ -171,6 +172,7 @@
 }
 
 .dialog {
+  flex-direction: column;
   gap: 30px;
   padding: 31px 32px;
   color: var(--main-color, #000);
@@ -185,7 +187,6 @@
 
 .dialog[open] {
   display: flex;
-  flex-direction: column;
 }
 
 .dialog__message {
@@ -248,6 +249,7 @@
 
 .button {
   position: relative;
+  border: 2px solid var(--main-color, #000);
   padding: 0;
   overflow: hidden;
   color: var(--light-color, #fff);
@@ -255,7 +257,6 @@
   font-size: var(--label-fs);
   line-height: var(--button-lh);
   cursor: pointer;
-  
 }
 
 .button:focus {
@@ -287,7 +288,6 @@
 }
 
 .dialog__button {
-  border: 2px solid var(--main-color, #000);
   text-transform: uppercase;
   background-color: transparent;
   min-block-size: 38px;
@@ -313,6 +313,10 @@
 
 .core {
   transition: fill 0.3s 0.03s linear;
+}
+
+.contour {
+  fill: var(--contour-color, #000);
 }
 
 .main-body {
