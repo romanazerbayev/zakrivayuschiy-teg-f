@@ -317,6 +317,7 @@
 
 .contour {
   fill: var(--contour-color, #000);
+  transition: fill 0.1s linear;
 }
 
 .main-body {
